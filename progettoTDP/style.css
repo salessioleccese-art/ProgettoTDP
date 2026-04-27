@@ -1,0 +1,145 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(to bottom, #f4f4f4, #b1b1b1);
+}
+
+header {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 40px black;
+   
+}
+header>h1{
+    margin: 50px;
+    font-size:40px;
+    font-style: oblique;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header>img {
+    width: 100%;
+    max-height: 400px;
+    height: auto;
+    border-radius: 8px;
+    border: 4px solid;
+    border-style:outset;
+}
+
+.titolo {
+    background-color: gold;
+    padding: 10px;
+    margin: 30px auto;
+    width: fit-content;
+    border: 3px solid #333;
+}
+
+.griglia-bottoni {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 100px 20px 100px 20px;
+    max-width: 1000px;
+    margin: auto;
+    
+
+}
+
+.contenitore>img{
+    width: 106px;
+    height: 106px;
+
+}
+.h1J{
+    text-align: center;
+    text-transform: uppercase;
+}
+.textJ{
+    text-align: center;
+    color: #033f7f;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+.contenitoreCard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+}
+.card {
+    min-width: 300px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 10px black;
+    text-align: center;
+    transition:  transform 0.3s ease;
+}
+.card>h3{
+    color: #033f7f;
+    font-size:x-large;
+
+}
+.card>p{
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.1);
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover { 
+    background-color: #0056b3; 
+}
+.allineamento{
+    display: flex;
+}
+.statiche{
+    left: 10px;
+    z-index: 0;
+    max-width: 20px;
+    position: relative;
+}
+.statiche>img{
+    width: 300px;
+}
+.box_informazioni {
+    background: linear-gradient(to bottom, rgb(89, 89, 90), rgb(39, 177, 223));
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+    border: 5px solid #033f7f;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.box_informazioni>h2{
+    font-size: xx-large;
+    color: whitesmoke;
+    font-family: italic;
+    
+
+} 
+.box_informazioni>p{
+    
+    font-style: oblique;
+    font-weight: bolder;
+    color: rgb(249, 231, 231);
+}  
+
+.card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    display: block;
+    margin: 10px auto;
+}
