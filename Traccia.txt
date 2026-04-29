@@ -1,0 +1,20 @@
+	
+										SITO:	
+										
+			argomento: educazione ambientale, norme da rispettare e buone consuetudini.
+			
+			temi: situazione attuale, futuro (se miglioriamo/se continuiamo cosi), 
+				  norme da rispettare.
+				  1) deforestazione
+				  2) plastica
+				  3) riscaldamento globale
+				  4) agenda 2030 
+				  
+				
+			requisiti funzionali: quiz, calcolatore di inquinamento.
+			
+			requisiti non funzionali: buona interfaccia grafica, linguaggio css/js/html.
+			
+			requisiti tecnologici: facile da utilizzare per tutti.
+			
+			
