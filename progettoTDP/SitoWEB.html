@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autoscuola Da Leccese & Sirocchi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Codice.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="img/immagineTitolo.png" >
+            <h1>Autoscuola Da Sirocchi & Leccese</h1> 
+    </header>
+
+    <main>
+        <section id="servizi">
+        
+            <div class="griglia-bottoni">
+                <div class="card">
+                    <h3>Segnaletica</h3>
+                    <p>Impara il codice della Strada!</p>
+                    <button onclick="apriSegnaletica()">Scopri di più</button>
+                    <div class="contenitore"><img src="img/segnaletica.jpg" ></div>
+            
+                    
+                </div>
+                <div class="card">
+                    <h3>Patenti</h3>
+                    <p>Cosa puoi guidare in Strada?</p>
+                    <button onclick="apriPatenti()">Scopri di più</button>
+                    <div class="contenitore"><img src="img/patente.jpg" ></div>
+            
+                </div>
+                <div class="card">
+                    <h3>Infrazioni</h3>
+                    <p>Come funziona il codice della Strada!</p>
+                    <button onclick="apriInfrazioni()">Scopri di più</button>
+                    <div class="contenitore"><img src="img/infrazioni.avif" ></div>
+                </div>
+                 <div class="card">
+                    <h3>Assicurazioni e altro...</h3>
+                    <p>Tutte le norme per tenere in regola il mezzo!</p>
+                    <button onclick="apriAssicurazioni()">Scopri di più</button>
+                    <div class="contenitore"><img src="img/assicurazione.avif" ></div>
+                </div>
+            </div>
+        </section>
+        <div class="allineamento">
+            <div class="statiche"><img src="img/macchina.png" ></div>
+            <section class="box_informazioni">
+                <h2>🚫I Pericoli Della Strada🚫</h2> <hr>
+                <p>La strada è un ambiente in cui ogni distrazione o comportamento scorretto può diventare pericoloso non solo per chi guida, ma anche per pedoni e altri veicoli. È fondamentale essere sempre attenti e rispettare le regole del codice della strada per evitare incidenti.
+                    Tra i principali pericoli c’è l’uso del cellulare alla guida, che riduce drasticamente l’attenzione e i tempi di reazione. Anche una semplice distrazione può causare gravi conseguenze.
+                    Un altro rischio importante è la velocità eccessiva: guidare troppo velocemente non permette di reagire in tempo a ostacoli improvvisi o situazioni impreviste.
+                    Anche la guida in stato di stanchezza o sotto l’effetto di alcol e sostanze è estremamente pericolosa, perché altera i riflessi e la capacità di giudizio.
+                    È importante inoltre rispettare la distanza di sicurezza e prestare attenzione ai pedoni, soprattutto negli attraversamenti.
+                    Guidare in modo responsabile significa proteggere la propria vita e quella degli altri, rendendo la strada un luogo più sicuro per tutti.
+                </p>
+            </section>
+        </div>
+        
+            <section name ="quiz">
+            <div class="card-quiz">
+                <h3>Quiz</h3>
+                <p>Metti alla prova le tue conoscenze</p>
+                <button onclick="avviaQuiz()">Inizia Quiz</button>
+            </div>
+        
+        </section>
+        
+
+        <section class="form">
+            <h2>Modulo D'Iscrizione</h2>
+            <form id="form">
+                <input type="text" placeholder="inseriri il nome e cognome" id="nome">
+                <label id="verificaNome"></label>
+                <input type="text" placeholder="inseriri l'email" id="email">
+                <label id="verificaEmail"></label>
+                <input type="text" placeholder="inseriri il numero telefono" id="telefono">
+                <label id="verificaTelefono"></label>
+                <input type="text" placeholder="inseriri il codice fiscale" id="codiceFiscale">
+                <label id="verificaCodiceFiscale"></label>
+                <select id="patente">
+                    <option value="" selected disabled>-Scegli una patente-</option> 
+                    <option value="AM">AM</option>
+                    <option value="A1">A1</option>
+                    <option value="A2">A2</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="B1">B1</option>
+                    <option value="B96">B96</option>
+                    <option value="BE">BE</option>
+                </select>
+                <label id="verificaPatente"></label>
+                <input type="submit" value="Invia" id="invia">
+                <label id="messaggioInvia"></label>
+            </form>
+        </section>
+    </main>
+
+    <div class="footer">
+        <div class="footer-contenuto">
+
+            <div class="footer-sezione">
+                <h3>Autoscuola</h3>
+                <p>Autoscuola Da Sirocchi & Leccese</p>
+                <p>Educazione stradale e sicurezza</p>
+            </div>
+
+            <div class="footer-sezione">
+                <h3>Contatti</h3>
+                <p>Email: info@alessioleccese.it</p>
+                <p>Telefono: 351 662 2322</p>
+            </div>
+
+            <div class="footer-sezione">
+                <h3>Informazioni</h3>
+                <p>Educazione civica</p>
+                <p>Sicurezza stradale</p>
+                <p>Responsabilità alla guida</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Autoscuola - Progetto scolastico</p>
+        </div>
+    </div>
+</body>
+</html>

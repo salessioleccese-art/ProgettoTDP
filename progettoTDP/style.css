@@ -1,0 +1,298 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(to bottom, #f4f4f4, #b1b1b1);
+}
+
+header {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 40px black;
+   
+}
+header>h1{
+    padding: 15px;
+    font-size:40px;
+    font-style: oblique;
+    text-shadow: 0 2px 3px black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header>img {
+    width: 100%;
+    max-height: 400px;
+    height: auto;
+    border-radius: 8px;
+    border: 4px solid;
+    border-style:outset;
+}
+
+
+
+.griglia-bottoni {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 100px 20px 100px 20px;
+    max-width: 1000px;
+    margin: auto;
+    
+
+}
+
+.contenitore>img{
+    width: 106px;
+    height: 106px;
+
+}
+.h1J{
+    text-align: center;
+    text-transform: uppercase;
+}
+.textJ{
+    text-align: center;
+    color: #033f7f;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+.contenitoreCard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+}
+.card {
+    min-width: 300px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 10px black;
+    text-align: center;
+    transition:  transform 0.3s ease;
+    
+}
+.card>h3{
+    color: #033f7f;
+    font-size:x-large;
+
+}
+.card>p{
+    font-weight: bolder;
+    font-style: oblique;
+}
+.card>img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    display: block;
+    margin: 10px auto;
+}
+
+.card:hover{
+    transform: translateY(-10px) scale(1.1);
+}
+
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover { 
+    background-color: #0660c0; 
+}
+.allineamento{
+    display: flex;
+}
+.statiche{
+    left: 10px;
+    z-index: 0;
+    max-width: 20px;
+}
+.statiche>img{
+    width: 300px;
+}
+.box_informazioni {
+    background-color: #0660c0;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+    border: 5px solid #033f7f;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px black;
+    text-shadow: 0 2px 10px rgb(0, 0, 0);
+    margin-bottom: 100px;
+}
+
+.box_informazioni>h2{
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    font-family: italic;
+    
+    
+
+} 
+.box_informazioni>p{
+    
+    font-style: oblique;
+    font-weight: bolder;
+    color: rgb(249, 231, 231);
+    line-height: 30px;
+}  
+
+
+
+.card-quiz{
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 10px black;
+    text-align: center;
+    transition:  transform 0.3s ease;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    border: solid 2px;
+    border-radius: 15px;
+}
+.card-quiz>h3{
+    color: #033f7f;
+    font-size:x-large;
+
+}
+.card-quiz>p{
+    font-weight: bolder;
+    font-style: oblique;
+}
+.quiz-box{
+    max-width: 300px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.quiz-box>h2{
+    margin-bottom: 20px;
+    color: #033f7f;
+}
+
+.quiz-box>button{
+    display: block;
+    width: 100%;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    background: #007bff;
+    color: white;
+    transition: 0.3s;
+}
+
+.quiz-box{
+    margin: 100px auto;
+}
+
+.quiz-box button:hover{
+    background: #0056b3;
+}
+
+.giusto{
+    background: green 
+}
+
+.sbagliato{
+    background: red 
+}
+
+#form{
+    
+    display: flex;
+    flex-direction: column;
+    width: 300px; 
+    padding: 20px;
+    gap: 10px;
+    margin: 60px auto;
+}
+.form{
+    
+    background-color: #0056b3;
+    border:3px solid;
+    border-radius: 5%;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 2px 10px black;
+}
+.form>h2{
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    font-size: 30px;
+    text-transform: uppercase;
+    
+
+
+}
+
+input, select{
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 2px solid #033f7f;
+    transition: 0.3s;
+}
+
+.erroreInput{
+    border: 2px solid red;
+}
+
+.inputGiusto{
+    border: 2px solid green;
+}
+
+
+.footer{
+    background-color: #033f7f;
+    color: white;
+    padding: 40px 20px 10px 20px;
+    margin-top: 50px;
+    
+}
+
+.footer-contenuto{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+
+
+
+.footer-sezione>h3{
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.footer-sezione>p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    padding-top: 10px;
+    font-size: 13px;
+}
+.footer-sezione p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
